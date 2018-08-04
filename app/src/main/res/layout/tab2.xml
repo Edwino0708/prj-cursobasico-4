@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tab2"
+    tools:ignore="MissingConstraints" >
+
+    <TextView
+        android:id="@+id/txv_title"
+        style="@style/Estilo_Title"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="60dp"
+        android:text="Calculadora de RPN"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="366dp"
+        android:layout_height="159dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txv_title">
+
+        <TextView
+            android:id="@+id/txv1"
+            style="@style/Estilo_subTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/st_tasa" />
+
+
+        <TextView
+            android:id="@+id/txv2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="41dp"
+            android:fontFamily="@font/kaushan_script"
+            android:text="$VEF" />
+
+        <TextView
+            android:id="@+id/txv3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/txv2"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/kaushan_script"
+            android:text="$USD" />
+
+        <TextView
+            android:id="@+id/txv4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/txv2"
+            android:layout_marginEnd="56dp"
+            android:fontFamily="@font/kaushan_script"
+            android:text="$EUR" />
+
+        <TextView
+            android:id="@+id/txv5"
+            style="@style/Estilo_Contenido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="17dp"
+            android:layout_toStartOf="@+id/txv3"
+            android:fontFamily="@font/kaushan_script"
+            android:text="@string/st_cambiar_val" />
+
+        <EditText
+            android:id="@+id/txe_1"
+            android:layout_width="96dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txv2"
+            android:layout_marginStart="20dp"
+            android:ems="10"
+            android:fontFamily="@font/kaushan_script"
+            android:inputType="number"
+            android:text="7.20"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="123dp"
+            android:enabled="false"/>
+
+
+        <EditText
+            android:id="@+id/txe_2"
+            android:layout_width="96dp"
+            android:layout_height="36dp"
+            android:layout_below="@+id/txv2"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:fontFamily="@font/kaushan_script"
+            android:inputType="number"
+            android:text="49.97 "
+            android:textAlignment="center"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteY="123dp"
+            android:enabled="false"/>
+
+
+        <EditText
+            android:id="@+id/txe_3"
+            android:layout_width="96dp"
+            android:layout_height="36dp"
+            android:layout_below="@+id/txv2"
+            android:layout_toEndOf="@+id/txv1"
+            android:ems="10"
+            android:fontFamily="@font/kaushan_script"
+            android:inputType="number"
+            android:text="57.80"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="252dp"
+            tools:layout_editor_absoluteY="123dp"
+            android:enabled="false"/>
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txv5"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="13dp"
+            android:text="@string/switch_1"
+            tools:ignore="UnknownId" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="363dp"
+        android:layout_height="81dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+        <TextView
+            android:id="@+id/txv6"
+            style="@style/Estilo_subTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/st_cambiarTasa"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <TextView
+            android:id="@+id/txv7"
+            android:layout_width="117dp"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="39dp"
+            android:fontFamily="@font/kaushan_script"
+            android:text="@string/valor_diner" />
+
+
+        <EditText
+            android:id="@+id/txe_4"
+            android:layout_width="96dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/txv7"
+            android:layout_marginEnd="121dp"
+            android:ems="10"
+            android:fontFamily="@font/kaushan_script"
+            android:inputType="number"
+            android:hint="0"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="238dp"
+            tools:layout_editor_absoluteY="456dp" />
+
+        <Button
+            android:id="@+id/btn_calcular"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/txv7"
+            android:layout_marginEnd="17dp"
+            android:text="@string/btn_calc"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="456dp" />
+
+
+
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2" />
+
+
+    <RelativeLayout
+        android:layout_width="362dp"
+        android:layout_height="117dp"
+        android:layout_marginBottom="86dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider2">
+
+
+        <TextView
+            android:id="@+id/txv8"
+            style="@style/Estilo_subTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/st_valorCam" />
+
+        <TextView
+            android:id="@+id/txv9"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="37dp"
+            android:fontFamily="@font/kaushan_script"
+            android:text="$VEF" />
+
+        <TextView
+            android:id="@+id/txv10"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/txv9"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/kaushan_script"
+            android:text="$USD" />
+
+        <TextView
+            android:id="@+id/txv11"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/txv10"
+            android:layout_marginEnd="41dp"
+            android:fontFamily="@font/kaushan_script"
+            android:text="$EUR" />
+
+
+        <EditText
+            android:id="@+id/txe_5"
+            android:layout_width="98dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txv9"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:fontFamily="@font/kaushan_script"
+            android:inputType="number"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+
+        <EditText
+            android:id="@+id/txe_6"
+            android:layout_width="96dp"
+            android:layout_height="36dp"
+            android:layout_below="@+id/txv9"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:fontFamily="@font/kaushan_script"
+            android:inputType="number"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/txe_7"
+            android:layout_width="96dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/txv9"
+            android:layout_marginEnd="18dp"
+            android:ems="10"
+            android:fontFamily="@font/kaushan_script"
+            android:inputType="number"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

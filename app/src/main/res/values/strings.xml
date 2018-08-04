@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Proyecto_Final</string>
+
+    <!--String para el primer Tab1-->
+    <string name="tab1_title">Calculador de Edad</string>
+
+    <!--String para el Segundo Tab2 -->
+    <string name="st_tasa">Valor de Tasa</string>
+    <string name="st_cambiarTasa">Cambiar valor de Tasa</string>
+    <string name="st_valorCam">Dinero cambiado a las tass</string>
+    <string name="st_cambiar_val">Cambiar valores de Tasas</string>
+    <string name="btn_calc">Calcular</string>
+    <string name="switch_1">Cambiar</string>
+    <string name="valor_diner">Valor de dinero RD</string>
+
+    <!--String para el Tercer Tab3 -->
+    <string name="tb3_title">Calculadora de Prestamos</string>
+    <string name="tb3_subtitle">Desglose de pago</string>
+    <string name="tb3_info">Ingrese valores</string>
+    <string name="tb3_txe_monto">Monto</string>
+    <string name="tb3_txe_tasa">Tasa</string>
+    <string name="tb3_txe_fecha">Meses</string>
+    <string name="tb3_txe_tipo">Tipo Tasa</string>
+    <string name="tb3_txe_peridodo">Periodo Pago</string>
+    <string name="tb3__lista">Mostra pagos</string>
+    <string name="tb3__inf_pago">La cantidad a pagar es de </string>
+    <string name="tb3__inf_meses">por  </string>
+
+    <string-array name="tipo_Tasa">
+        <item>Mensual</item>
+        <item>Anual</item>
+    </string-array>
+
+    <string-array name="periodo_pago">
+        <item>Diario</item>
+        <item>Semana</item>
+        <item>Mensual</item>
+        <item>Cuastrimetral</item>
+        <item>Anual</item>
+    </string-array>
+
+    <!--Tab4-->
+    <string name="tb4_title">Calculadora de Edad</string>
+    <string name="tb4_edad">Tu edad es </string>
+    <string name="tb4_dif_edad">La deferencia de edad es </string>
+    <string name="tb4_dif_year">años </string>
+    <string name="tb4_calcular">Calcular </string>
+    <string name="tb4_seleccionar">Valor de fecha </string>
+
+    <!--Main Activity-->
+    <string-array name="fondo">
+        <item>Blanco</item>
+        <item>Rojo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Gris</item>
+    </string-array>
+
+    <string-array name="idioma">
+        <item>Esp</item>
+        <item>Eng</item>
+    </string-array>
+
+    <!-- Calendar-->
+    <string name="calendar_title">Calendario</string>
+
+    <!--Favorito-->
+    <string name="informacion">Informacion</string>
+    <string name="informacion2">Buenas mi nombre es Edwin Isidro Tejada Rodriguez actualmente estoy estudiando en el ITLA el tecnologo de Software,
+    esta aplicacion la pude llevar a cabo gracia al conocimiento que adquerir el curso de Altice y tambien por mi mismo, el tiempo que pase en altice fue muy divertido y quiero
+    volver a hacerlo. Con esto conocimiento adquerido quisiera desarrollar una app con el objetivo que ayude a la sociedad.</string>
+    <string name="btn_info">Ok</string>
+
+    <string name="calculator">Programa Calculadora</string>
+    
+</resources>

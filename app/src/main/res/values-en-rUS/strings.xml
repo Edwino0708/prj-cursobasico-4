@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Final_Proyect</string>
+    <string name="tab1_title">Calculer of Age</string>
+    <string name="st_tasa">" Rate Value"</string>
+    <string name="st_cambiarTasa">"Change Rate value "</string>
+    <string name="st_valorCam">Money changed at the rate</string>
+    <string name="tb3_title">" Loan of Calculator"</string>
+    <string name="tb3_subtitle">"Payment breakdown "</string>
+    <string name="tb3_info">"Enter values "</string>
+    <string name="tb3_txe_monto">Rode</string>
+    <string name="tb3_txe_tasa">Rate</string>
+    <string name="tb3_txe_fecha">Months</string>
+    <string name="tb3_txe_tipo">"Type Rate "</string>
+    <string name="tb3_txe_peridodo">"Payment Period "</string>
+    <string name="tb3__lista">"Show payments "</string>
+    <string name="tb3__inf_pago">"The amount to be paid is "</string>
+    <string name="tb3__inf_meses">"by "</string>
+    <string name="tb4_title">Age Calculator</string>
+    <string name="tb4_edad">"Your age is "</string>
+    <string name="tb4_dif_edad">"The age difference is "</string>
+    <string name="tb4_dif_year">years</string>
+    <string name="tb4_calcular">Calculate</string>
+    <string name="tb4_seleccionar">"Date value "</string>
+    <string name="calendar_title">Calendar</string>
+    <string name="informacion">information</string>
+    <string name="btn_info">Ok</string>
+    <string name="informacion2">"Good, my name is Edwin Isidro Tejada Rodriguez I am currently studying at the ITLA Software Technologist, this application could be done thanks to the knowledge that I acquired the Altice course and also for myself, the time I spent at Altice was very fun and I want to do it again With this acquired knowledge I would like to develop an app with the aim of helping society. "</string>
+    <string name="st_cambiar_val">"Change Rate values "</string>
+    <string name="btn_calc">Calculate</string>
+    <string name="switch_1">Change</string>
+    <string name="valor_diner">"Value of money RD "</string>
+</resources>

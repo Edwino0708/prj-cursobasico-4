@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="Like"
+        app:showAsAction="ifRoom"/>
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_idioma"
+        android:title="Idioma"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_fondo"
+        android:title="Fondo"
+        app:showAsAction="never"/>
+
+</menu>
